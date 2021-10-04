@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/comingsoonbears/static/css/main.b84a2c9f.chunk.css",
+    "main.js": "/comingsoonbears/static/js/main.be55512b.chunk.js",
+    "main.js.map": "/comingsoonbears/static/js/main.be55512b.chunk.js.map",
+    "runtime-main.js": "/comingsoonbears/static/js/runtime-main.b16d80cd.js",
+    "runtime-main.js.map": "/comingsoonbears/static/js/runtime-main.b16d80cd.js.map",
+    "static/js/2.f3647d9a.chunk.js": "/comingsoonbears/static/js/2.f3647d9a.chunk.js",
+    "static/js/2.f3647d9a.chunk.js.map": "/comingsoonbears/static/js/2.f3647d9a.chunk.js.map",
+    "static/js/3.db21ed70.chunk.js": "/comingsoonbears/static/js/3.db21ed70.chunk.js",
+    "static/js/3.db21ed70.chunk.js.map": "/comingsoonbears/static/js/3.db21ed70.chunk.js.map",
+    "index.html": "/comingsoonbears/index.html",
+    "static/css/main.b84a2c9f.chunk.css.map": "/comingsoonbears/static/css/main.b84a2c9f.chunk.css.map",
+    "static/js/2.f3647d9a.chunk.js.LICENSE.txt": "/comingsoonbears/static/js/2.f3647d9a.chunk.js.LICENSE.txt",
+    "static/media/logo.f6606e44.png": "/comingsoonbears/static/media/logo.f6606e44.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b16d80cd.js",
+    "static/js/2.f3647d9a.chunk.js",
+    "static/css/main.b84a2c9f.chunk.css",
+    "static/js/main.be55512b.chunk.js"
+  ]
+}
