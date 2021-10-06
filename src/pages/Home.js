@@ -17,7 +17,11 @@ export default function Home() {
           </HashLink>
         </div>
         <div className="nav-item">
-          <a href="https://discord.com/invite/SRG77c7629" target="_blank" rel="noreferrer">
+          <a
+            href="https://discord.com/invite/SRG77c7629"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i>Discord</i>
           </a>
         </div>
@@ -25,6 +29,11 @@ export default function Home() {
           <HashLink smooth to="/#mint">
             <i>Mint</i>
           </HashLink>
+        </div>
+        <div className="nav-item">
+          <a href="mailto:pizzlybearsonsolana@protonmail.com">
+            <i>Contact</i>
+          </a>
         </div>
       </div>
       <div className="row sec1">
@@ -48,7 +57,11 @@ export default function Home() {
         <h3>Join Our Community</h3>
         <div className="row">
           <div>
-            <a href="https://discord.com/invite/SRG77c7629" target="_blank" rel="noreferrer">
+            <a
+              href="https://discord.com/invite/SRG77c7629"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={discord} alt="" srcset="" />
             </a>
           </div>
@@ -58,7 +71,11 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href="http://twitter.com/PizzlyBearsNFT" target="_blank" rel="noreferrer">
+            <a
+              href="http://twitter.com/PizzlyBearsNFT"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={twitter} alt="" srcset="" />
             </a>
           </div>
