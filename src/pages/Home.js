@@ -17,9 +17,9 @@ export default function Home() {
           </HashLink>
         </div>
         <div className="nav-item">
-          <HashLink smooth to="/#discord">
+          <a href="https://discord.com/invite/SRG77c7629" target="_blank" rel="noreferrer">
             <i>Discord</i>
-          </HashLink>
+          </a>
         </div>
         <div className="nav-item">
           <HashLink smooth to="/#mint">
@@ -48,7 +48,7 @@ export default function Home() {
         <h3>Join Our Community</h3>
         <div className="row">
           <div>
-            <a href="https://discord.com/invite/wZnb5cQu" target="_blank" rel="noreferrer">
+            <a href="https://discord.com/invite/SRG77c7629" target="_blank" rel="noreferrer">
               <img src={discord} alt="" srcset="" />
             </a>
           </div>
