@@ -1,32 +1,165 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.navbar .nav-item {
+  text-transform: uppercase;
+  color: red;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 20px;
+  margin: 10px;
+}
+.navbar a {
+  color: red;
+}
+.sec1 {
+  padding-top: 95px;
+}
+img.bear {
+  width: 420px;
+  height: auto;
+}
+img.roadmap {
+  width: 600px;
+  height: auto;
+}
+.sec2 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 10px 0;
+}
+.sec2 h2 {
+  text-transform: uppercase;
+  font-size: 90px;
+}
+.sec2 h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.sec2 p {
+  font-size: 21px;
+  font-weight: 300;
+}
+.sec3 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 30px 0px;
+  margin: 10px 0px;
+}
+.sec3 h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.sec3 .row {
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+.sec3 .row div {
+}
+.sec3 .row div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.sec3 img {
+  width: 50px;
+}
+
+/* COUNTDOWN TIMER START */
+.container {
+  color: white;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 60vmin;
-  pointer-events: none;
+h1 {
+  font-weight: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
   }
 }
+/* COUNTDOWN TIMER END */
 
-.App-header {
-  background-color: white;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-i {
-  color: #61dafb;
-}
-@keyframes App-logo-spin {
-  
+@media (max-width: 600px) {
+  .navbar .nav-item {
+    text-transform: uppercase;
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    margin: 10px 0px;
+  }
+  .sec1 {
+    padding-top: 57px;
+  }
+  img.bear {
+    width: 360px;
+    height: auto;
+  }
+  .sec2 {
+    margin: 0;
+  }
+  .sec2 h4 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .sec2 h2 {
+    font-size: 50px;
+  }
+  img.roadmap {
+    width: 360px;
+    height: auto;
+  }
+  .sec2 p {
+    font-size: 20px;
+  }
+  .sec3 {
+    margin: 0;
+  }
 }

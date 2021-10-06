@@ -1,14 +1,11 @@
-import logo from './logo.png';
-import './App.css';
-
+import "./App.css";
+import Layout from './components/Layout'
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       
-      </header>
-    </div>
+    <Router>
+      <Layout></Layout>
+    </Router>
   );
 }
 
