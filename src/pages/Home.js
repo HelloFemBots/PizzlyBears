@@ -48,17 +48,17 @@ export default function Home() {
         <h3>Join Our Community</h3>
         <div className="row">
           <div>
-            <a href="https://discord.com/invite/wZnb5cQu" target="_blank">
+            <a href="https://discord.com/invite/wZnb5cQu" target="_blank" rel="noreferrer">
               <img src={discord} alt="" srcset="" />
             </a>
           </div>
           <div>
-            <a href="" target="_blank">
+            <a href="" target="_blank" rel="noreferrer">
               <img src={medium} alt="" srcset="" />
             </a>
           </div>
           <div>
-            <a href="http://twitter.com/PizzlyBearsNFT" target="_blank">
+            <a href="http://twitter.com/PizzlyBearsNFT" target="_blank" rel="noreferrer">
               <img src={twitter} alt="" srcset="" />
             </a>
           </div>
