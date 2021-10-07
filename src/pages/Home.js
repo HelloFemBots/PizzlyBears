@@ -5,6 +5,7 @@ import bearreport from "../assets/images/bearreport.png";
 import discord from "../assets/images/discord.png";
 import medium from "../assets/images/medium.png";
 import twitter from "../assets/images/twitter.png";
+import nft_calender from "../assets/images/nft_calender.png";
 import { HashLink } from "react-router-hash-link";
 export default function Home() {
   return (
@@ -52,7 +53,7 @@ export default function Home() {
       <div className="row">
         <img className="roadmap" src={bearreport} alt="roadmap" />
       </div>
-      <section id="discord"></section>
+
       <div className="sec3">
         <h3>Join Our Community</h3>
         <div className="row">
@@ -79,6 +80,14 @@ export default function Home() {
               <img src={twitter} alt="" srcset="" />
             </a>
           </div>
+        </div>
+      </div>
+      <div className="sec4">
+        <div className="row">
+          <h2><i>As Soon On</i></h2>
+        </div>
+        <div className="row">
+          <img src={nft_calender} alt="" srcset="" />
         </div>
       </div>
     </>
