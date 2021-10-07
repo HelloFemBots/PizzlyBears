@@ -84,13 +84,13 @@ img.roadmap {
 .sec3 img {
   width: 50px;
 }
-.sec4 .h2 {
+.sec4 h2 {
   color: red;
   font-size: 46px;
   margin-top: 41px;
 }
 .sec4 img{
-  width: 500px;
+  width: 300px;
   height: auto;
 }
 /* COUNTDOWN TIMER START */
