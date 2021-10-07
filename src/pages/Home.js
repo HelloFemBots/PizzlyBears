@@ -84,7 +84,7 @@ export default function Home() {
       </div>
       <div className="sec4">
         <div className="row">
-          <h2><i>As Soon On</i></h2>
+          <h2><i>As Seen On:</i></h2>
         </div>
         <div className="row">
           <img src={nft_calender} alt="" srcset="" />
