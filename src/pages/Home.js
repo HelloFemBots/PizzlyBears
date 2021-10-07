@@ -86,9 +86,7 @@ export default function Home() {
       </div>
       <div className="sec4">
         <div className="row">
-          <h2>
-            <i>As Seen On</i>
-          </h2>
+          <h2><i>As Seen On:</i></h2>
         </div>
         <div className="row">
           <a href="https://nftcalendar.io/" target="_blank" rel="noreferrer">
