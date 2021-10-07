@@ -136,7 +136,7 @@ li span {
     font-size: calc(3.375rem * var(--smaller));
   }
 }
-/* COUNTDOWN TIMER END */
+/* COUNTDOWN TIMER Section END */
 
 @media (max-width: 600px) {
   .navbar .nav-item {
