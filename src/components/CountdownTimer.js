@@ -40,7 +40,7 @@ import React from "react";
 
       //do something later when date is reached
       if (distance < 0) {
-        document.getElementById("headline").innerText = "Thank you !";
+        document.getElementById("headline").innerText = "Thank You for Being With Us!";
         document.getElementById("countdown").style.display = "none";
         clearInterval(x);
       }
@@ -50,7 +50,7 @@ import React from "react";
 export default function CountdownTimer() {
   return (
     <div class="container">
-      <h1 id="headline">Countdown Ends On:</h1>
+      <h1 id="headline">Countdown Ends On</h1>
       <div id="countdown">
         <ul>
           <li>
