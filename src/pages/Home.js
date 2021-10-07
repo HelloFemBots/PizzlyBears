@@ -6,6 +6,8 @@ import discord from "../assets/images/discord.png";
 import medium from "../assets/images/medium.png";
 import twitter from "../assets/images/twitter.png";
 import nft_calender from "../assets/images/nft_calender.png";
+import nonfungi from "../assets/images/nonfungi.png";
+import howrareis from "../assets/images/howrareis.png";
 import { HashLink } from "react-router-hash-link";
 export default function Home() {
   return (
@@ -87,7 +89,15 @@ export default function Home() {
           <h2><i>As Seen On:</i></h2>
         </div>
         <div className="row">
-          <img src={nft_calender} alt="" srcset="" />
+          <a href="https://nftcalendar.io/" target="_blank" rel="noreferrer">
+            <img src={nft_calender} alt="" srcset="" />
+          </a>
+          <a href="https://www.non-fungi.com/" target="_blank" rel="noreferrer">
+            <img src={nonfungi} alt="" srcset="" />
+          </a>
+          <a href="https://howrare.is/" target="_blank" rel="noreferrer">
+            <img src={howrareis} alt="" srcset="" />
+          </a>
         </div>
       </div>
     </>

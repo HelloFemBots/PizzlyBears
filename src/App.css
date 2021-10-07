@@ -84,6 +84,9 @@ img.roadmap {
 .sec3 img {
   width: 50px;
 }
+.sec4 .row{
+  justify-content: center;
+}
 .sec4 h2 {
   color: red;
   font-size: 46px;
@@ -92,6 +95,7 @@ img.roadmap {
 .sec4 img{
   width: 300px;
   height: auto;
+  margin: 0 10px;
 }
 /* COUNTDOWN TIMER START */
 .container {
@@ -170,8 +174,13 @@ li span {
   .sec3 {
     margin: 0;
   }
+  .sec4 h2 {
+    color: red;
+    font-size: 28px;
+    margin-top: 5px;
+}
   .sec4 img{
-    width: 360px;
+    width: 100px;
     height: auto;
   }
 }
