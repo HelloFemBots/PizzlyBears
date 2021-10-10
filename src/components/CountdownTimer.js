@@ -4,29 +4,13 @@ import React from "react";
     minute = second * 60,
     hour = minute * 60,
     day = hour * 24;
-
-  //I'm adding this section so I don't have to keep updating this pen every year :-)
-  //remove this if you don't need it
-  //   let today = new Date(),
-  //     dd = String(today.getDate()).padStart(2, "0"),
-  //     mm = String(today.getMonth() + 1).padStart(2, "0"),
-  //     yyyy = today.getFullYear(),
-  // let nextYear = "2021";
-  // let dayMonth = "10/06/";
-
-  //   today = mm + "/" + dd + "/" + yyyy;
-  //   if (today > endday) {
-  //     endday = dayMonth + nextYear;
-  //   }
-  //end
-  
-  //   PST Time
-  let endday = "Oct 11, 2021 08:00:00";
+  // let endday = "Oct 11, 2021 08:00:00";
+  let endday = "Mon, 11 Oct 2021 15:00:00 GMT";
   const countDown = new Date(endday).getTime(),
     x = setInterval(function () {
-      const now = new Date().getTime(),
+      let today = new Date().toUTCString();
+      const now = new Date(today).getTime(),
         distance = countDown - now;
-
       document.getElementById("days").innerText = Math.floor(distance / day);
       document.getElementById("hours").innerText = Math.floor(
         (distance % day) / hour
@@ -40,7 +24,8 @@ import React from "react";
 
       //do something later when date is reached
       if (distance < 0) {
-        document.getElementById("headline").innerText = "Thank You for Being With Us!";
+        document.getElementById("headline").innerText =
+          "Go Grab yours one !!!";
         document.getElementById("countdown").style.display = "none";
         clearInterval(x);
       }
@@ -51,7 +36,7 @@ export default function CountdownTimer() {
   return (
     <div class="container">
       <h1 id="headline">Launching On</h1>
-      <p>Oct 11, 2021 08:00 am PST</p>
+      <p>Mon, 11 Oct 2021 03:00:00 PM GMT</p>
       <div id="countdown">
         <ul>
           <li>
