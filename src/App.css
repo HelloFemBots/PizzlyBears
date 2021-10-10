@@ -21,13 +21,14 @@ a {
 .col-6 {
   flex-basis: 60%;
 }
-h1.title{
+h1.title {
   text-align: center;
 }
-section{
+section {
   /* padding-top: 100px; */
 }
 .navbar .col-2 {
+  flex-basis: 14%;
   text-align: center;
 }
 .navbar {
@@ -53,6 +54,9 @@ section{
 .nav-item img.logo {
   width: 80px;
   float: right;
+}
+.navbar .social-icon-group{
+  flex-basis: 20%;
 }
 .navbar a {
   color: #f7ad0c;
@@ -247,7 +251,10 @@ img.animation {
     justify-content: center;
   }
   .navbar .col-2 {
-    flex-basis: 18%;
+    flex-basis: 14%;
+  }
+  .navbar .social-icon-group{
+    flex-basis: 20%;
   }
   .home-page {
     /* padding-top: 84px; */
@@ -271,79 +278,81 @@ img.animation {
   .hero-area .col-4 {
     flex-basis: 95%;
   }
-  .story-page div.story-sec-1{
+  .story-page div.story-sec-1 {
     flex-wrap: wrap;
   }
-  .story-page img{
+  .story-page img {
     width: 150px !important;
   }
-  .story-page p{
+  .story-page p {
     font-size: 15px !important;
   }
-  .roadmap-page .row{
+  .roadmap-page .row {
     flex-wrap: wrap;
   }
-  .faq-item h2.header{
+  .faq-item h2.header {
     font-size: 20px;
   }
-  .faq-item p.description{
+  .faq-item p.description {
     font-size: 15px;
   }
 }
 @media (max-width: 600px) {
-  .navbar .col-2{
-    flex-basis: 20%;
+  .navbar .col-2 {
+    flex-basis: 12%;
   }
-  .navbar .nav-item{
-    margin: 5px 0;
+  .navbar .social-icon-group {
+    flex-basis: 24%;
   }
-  .nav-item img.logo{
+  .navbar .nav-item {
+    margin: 0 0;
+  }
+  .nav-item img.logo {
     width: 65px;
   }
-  .nav-item a{
+  .nav-item a {
     font-size: 12px;
   }
-  .nav-item img{
+  .nav-item img {
     width: 20px;
     margin: 0 2px;
   }
-  .home-page{
+  .home-page {
     /* padding-top: 54px; */
   }
   .hero-para h1 {
     font-size: 30px;
-}
-  .container li{
-    font-size: 14px;
   }
-  .story-page .col-6{
+  .container li {
+    font-size: 12px;
+  }
+  .story-page .col-6 {
     flex-basis: 95%;
     margin: 10px 0;
   }
-  .story-page p{
+  .story-page p {
     margin-bottom: 10px;
   }
-  .story-page div.story-sec-1{
+  .story-page div.story-sec-1 {
     padding: 10px 0;
   }
-  .story-page div.story-sec-2{
+  .story-page div.story-sec-2 {
     padding: 10px 0;
   }
-  .story-page div.story-sec-3{
+  .story-page div.story-sec-3 {
     padding: 10px 0;
     flex-wrap: wrap;
   }
-  .roadmap-page .step-item{
+  .roadmap-page .step-item {
     width: 290px;
   }
-  .roadmap-page .step-item{
-    padding:15px;
+  .roadmap-page .step-item {
+    padding: 15px;
   }
-  .roadmap-page .step-item h2.step-header{
+  .roadmap-page .step-item h2.step-header {
     font-size: 17px;
   }
-  .roadmap-page .step-item p.step-description{
+  .roadmap-page .step-item p.step-description {
     font-size: 17px;
   }
-  
 }
