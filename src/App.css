@@ -12,115 +12,215 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.col-2 {
+  flex-basis: 20%;
+}
+.col-4 {
+  flex-basis: 40%;
+}
+.col-6 {
+  flex-basis: 60%;
+}
+h1.title{
+  text-align: center;
+}
+section{
+  /* padding-top: 100px; */
+}
+.navbar .col-2 {
+  text-align: center;
+}
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: #0e6266;
+  padding: 5px 0;
+  z-index: 1;
 }
 .navbar .nav-item {
   text-transform: uppercase;
   color: red;
   font-size: 25px;
   font-weight: 900;
-  padding: 20px;
-  margin: 10px;
+  /* padding: 20px; */
+  margin: 20px 0;
 }
-.navbar a {
-  color: red;
-}
-.sec1 {
-  padding-top: 95px;
-}
-img.bear {
-  width: 420px;
-  height: auto;
-}
-img.roadmap {
-  width: 600px;
-  height: auto;
-}
-.sec2 {
-  background-color: red;
-  color: white;
-  text-align: center;
-  padding: 10px 0px;
-  margin: 10px 0;
-}
-.sec2 h2 {
-  text-transform: uppercase;
-  font-size: 90px;
-}
-.sec2 h4 {
-  font-size: 30px;
-  font-weight: 400;
-}
-.sec2 p {
-  font-size: 21px;
-  font-weight: 300;
-}
-.sec3 {
-  background-color: red;
-  color: white;
-  text-align: center;
-  padding: 30px 0px;
-  margin: 10px 0px;
-}
-.sec3 h3 {
-  font-size: 30px;
-  text-transform: capitalize;
-}
-.sec3 .row {
-  margin-top: 40px;
-  justify-content: space-evenly;
-}
-.sec3 .row div {
-}
-.sec3 .row div a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-.sec3 img {
-  width: 50px;
-}
-.sec4 .row{
-  justify-content: center;
-}
-.sec4 h2 {
-  color: red;
-  font-size: 46px;
-  margin-top: 41px;
-}
-.sec4 img{
-  width: 300px;
-  height: auto;
+.nav-item img {
+  width: 40px;
   margin: 0 10px;
 }
-/* COUNTDOWN TIMER START */
-.container {
+.nav-item img.logo {
+  width: 80px;
+  float: right;
+}
+.navbar a {
+  color: #f7ad0c;
+}
+.home-page {
+  /* padding-top: 90px; */
+}
+.home-page .hero-area {
+  background-color: #121313;
+}
+/* .hero-are img{
+  width: 400px;
+} */
+.hero-area .hero-para {
+  background: linear-gradient(
+    to right,
+    hsl(177deg 69% 64%),
+    hsl(40deg 99% 50%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 20px 0px;
+}
+.hero-para h1 {
+  text-transform: uppercase;
+  font-size: 85px;
+}
+.hero-para p {
+  font-size: 24px;
+}
+img.animation {
+  width: 400px;
+}
+
+.story-page div.story-sec-1 {
+  background-color: #58e644;
+}
+.story-page img.story-sec-1 {
+  width: 400px;
+}
+.story-page p.story-sec-1 {
+  font-size: 24px;
+  color: #8902ff;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.story-page div.story-sec-2 {
+  background-color: #ffc700;
+}
+.story-page img.story-sec-2 {
+  width: 400px;
+}
+.story-page p.story-sec-2 {
+  font-size: 24px;
+  color: #230b00;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.story-page div.story-sec-3 {
+  background-color: #58e644;
+}
+.story-page img.story-sec-3 {
+  width: 400px;
+}
+.story-page p.story-sec-3 {
+  font-size: 24px;
+  color: #670409;
+  font-weight: 600;
+  font-family: cursive;
+}
+.roadmap-page {
+  padding: 40px;
+  background-color: #121313;
+  overflow: hidden;
+}
+.roadmap-page .step-item {
   color: white;
-  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 13px;
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+.roadmap-page .step-item h2.step-header {
+  text-transform: uppercase;
+  font-size: 31px;
+  color: white;
+}
+.roadmap-page .step-item p.step-description {
+  font-size: 22px;
+  text-align: justify;
+  color: #8e8e8e;
+}
+.faq-page {
+  background-color: #0e6266;
+  padding: 20px;
+  color: #f7ad0c;
+}
+.faq-page .faq-item {
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+}
+.faq-item h2.header {
+  font-size: 35px;
+  font-family: cursive;
+  font-style: italic;
+  cursor: pointer;
+}
+.faq-item hr.header {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #f7ad0c 24%, white 81%);
+  height: 5px;
+}
+.faq-item p.description {
+  display: none;
+  font-size: 20px;
+  font-family: cursive;
+}
+.footer {
+  background-color: #121313;
+}
+.footer h3 {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.footer h4 {
+  color: white;
+  width: 100%;
   text-align: center;
 }
-
-h1 {
-  font-weight: normal;
-  letter-spacing: 0.125rem;
-  text-transform: uppercase;
+.footer img {
+  width: 100%;
+}
+.footer img.howrareis {
+  background-color: white;
 }
 
-li {
+/* COUNTDOWN TIMER START */
+/*  */
+.container {
+  border: 5px solid wheat;
+  border-radius: 55px;
+  padding: 15px;
+  /* box-shadow: 5px 10px #888888; */
+  margin: 22px 0px;
+}
+.container h1 {
+  font-size: 30px;
+}
+.container li {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
-  padding: 1em;
+  padding: 0 10px;
   text-transform: uppercase;
 }
 
-li span {
+.container li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 @media all and (max-width: 768px) {
@@ -138,49 +238,112 @@ li span {
 }
 /* COUNTDOWN TIMER Section END */
 
-@media (max-width: 600px) {
-  .navbar .nav-item {
-    text-transform: uppercase;
-    color: red;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 5px;
-    margin: 10px 0px;
+@media (max-width: 1024px) {
+  .nav-item img {
+    width: 26px;
+    margin: 0 5px;
   }
-  .sec1 {
-    padding-top: 57px;
+  .navbar {
+    justify-content: center;
   }
-  img.bear {
-    width: 360px;
-    height: auto;
+  .navbar .col-2 {
+    flex-basis: 18%;
   }
-  .sec2 {
-    margin: 0;
+  .home-page {
+    /* padding-top: 84px; */
   }
-  .sec2 h4 {
-    font-size: 25px;
-    font-weight: 400;
+
+  .home-page .row {
+    flex-wrap: wrap-reverse;
   }
-  .sec2 h2 {
+  .home-page .hero-area {
+    padding-top: 15px;
+  }
+  img.animation {
+    width: 260px;
+    margin: auto;
+    display: flex;
+  }
+
+  .hero-para h1 {
     font-size: 50px;
   }
-  img.roadmap {
-    width: 360px;
-    height: auto;
+  .hero-area .col-4 {
+    flex-basis: 95%;
   }
-  .sec2 p {
+  .story-page div.story-sec-1{
+    flex-wrap: wrap;
+  }
+  .story-page img{
+    width: 150px !important;
+  }
+  .story-page p{
+    font-size: 15px !important;
+  }
+  .roadmap-page .row{
+    flex-wrap: wrap;
+  }
+  .faq-item h2.header{
     font-size: 20px;
   }
-  .sec3 {
-    margin: 0;
+  .faq-item p.description{
+    font-size: 15px;
   }
-  .sec4 h2 {
-    color: red;
-    font-size: 28px;
-    margin-top: 5px;
 }
-  .sec4 img{
-    width: 100px;
-    height: auto;
+@media (max-width: 600px) {
+  .navbar .col-2{
+    flex-basis: 20%;
   }
+  .navbar .nav-item{
+    margin: 5px 0;
+  }
+  .nav-item img.logo{
+    width: 65px;
+  }
+  .nav-item a{
+    font-size: 12px;
+  }
+  .nav-item img{
+    width: 20px;
+    margin: 0 2px;
+  }
+  .home-page{
+    /* padding-top: 54px; */
+  }
+  .hero-para h1 {
+    font-size: 30px;
+}
+  .container li{
+    font-size: 14px;
+  }
+  .story-page .col-6{
+    flex-basis: 95%;
+    margin: 10px 0;
+  }
+  .story-page p{
+    margin-bottom: 10px;
+  }
+  .story-page div.story-sec-1{
+    padding: 10px 0;
+  }
+  .story-page div.story-sec-2{
+    padding: 10px 0;
+  }
+  .story-page div.story-sec-3{
+    padding: 10px 0;
+    flex-wrap: wrap;
+  }
+  .roadmap-page .step-item{
+    width: 290px;
+  }
+  .roadmap-page .step-item{
+    padding:15px;
+  }
+  .roadmap-page .step-item h2.step-header{
+    font-size: 17px;
+  }
+  .roadmap-page .step-item p.step-description{
+    font-size: 17px;
+  }
+  
 }

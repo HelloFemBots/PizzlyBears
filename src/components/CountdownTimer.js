@@ -50,7 +50,8 @@ import React from "react";
 export default function CountdownTimer() {
   return (
     <div class="container">
-      <h1 id="headline">Countdown Ends On</h1>
+      <h1 id="headline">Launching On</h1>
+      <p>Oct 11, 2021 08:00 am PST</p>
       <div id="countdown">
         <ul>
           <li>
